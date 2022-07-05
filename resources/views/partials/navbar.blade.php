@@ -19,9 +19,42 @@
          
         </ul>
         <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home">
+              <i class="menu-icon mdi mdi-floor-plan"></i>
+              <span class="menu-title">Home</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="findplace">
+              <i class="menu-icon mdi mdi-floor-plan"></i>
+              <span class="menu-title">Find Place</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about">
+              <i class="menu-icon mdi mdi-floor-plan"></i>
+              <span class="menu-title">About</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact">
+              <i class="menu-icon mdi mdi-floor-plan"></i>
+              <span class="menu-title">Contact</span>
+            </a>
+          </li>
+
+          <div class="header-btn d-none f-right d-lg-block">
+            <a href="register" class="btn head-btn1">Register</a>
+            <a href="login" class="btn head-btn2">Login</a>
+        </div>
           
-          <li class="nav-item dropdown d-none d-lg-block user-dropdown">
-            <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+          
+         /* <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+           /* <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
               <div class="dropdown-header text-center">
@@ -34,7 +67,7 @@
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity</a>
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ</a>
               <a class="dropdown-item" href="login"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
-            </div>
+            </div>*/
           </li>
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-bs-toggle="offcanvas">
